@@ -98,10 +98,10 @@ packages:
     dependency: transitive
     description:
       name: build_modules
-      sha256: "5d95f6a500e3cb27eebfb5d264c683ca658fcb39ef73ee403595d7a2b2955a44"
+      sha256: "349f492c6cf66d32d24b71368908df23426440bf9ee4642fdb79978adb82a877"
       url: "https://pub.dev"
     source: hosted
-    version: "5.0.10"
+    version: "5.0.12"
   build_resolvers:
     dependency: transitive
     description:
@@ -138,10 +138,10 @@ packages:
     dependency: transitive
     description:
       name: build_web_compilers
-      sha256: "75a3ce1cd97d2bb13bc0d7321570c390ef795304ca3c6a635716fd9902587a68"
+      sha256: cbe4deca108e5a9949df0065e7ef3777f54d8545b9232f2d8ef74601f2fb2df3
       url: "https://pub.dev"
     source: hosted
-    version: "4.1.0"
+    version: "4.1.3"
   built_collection:
     dependency: transitive
     description:
@@ -783,4 +783,4 @@ packages:
     source: hosted
     version: "3.1.3"
 sdks:
-  dart: ">=3.6.0 <3.7.0-z"
+  dart: ">=3.7.0 <3.8.0-z"

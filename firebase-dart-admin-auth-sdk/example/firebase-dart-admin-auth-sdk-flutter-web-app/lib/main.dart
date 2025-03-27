@@ -9,6 +9,8 @@ import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:provider/provider.dart';
 
+
+
 final GoogleSignIn _googleSignIn = GoogleSignIn(
   scopes: ['email', 'https://www.googleapis.com/auth/cloud-platform'],
 );
@@ -57,15 +59,15 @@ void main() async {
     );
 
     //   // Initialize for web
-    //   debugPrint('Initializing Firebase for Web...');
-    //   await FirebaseApp.initializeAppWithEnvironmentVariables(
-    //     apiKey: 'YOUR_API_KEY', // 'YOUR_API_KEY'
-    //     authdomain: 'YOUR_AUTH_DOMAIN', // 'YOUR_AUTH_DOMAIN'
-    //     projectId: 'YOUR_PROJECT_ID', // 'YOUR_PROJECT_ID'
-    //     messagingSenderId: 'YOUR_SENDER_ID', // 'YOUR_SENDER_ID'
-    //     bucketName: 'YOUR_BUCKET_NAME', // 'YOUR_BUCKET_NAME'
-    //     appId: 'YOUR_APP_ID', // 'YOUR_APP_ID'
-    //   );
+    debugPrint('Initializing Firebase for Web...');
+    await FirebaseApp.initializeAppWithEnvironmentVariables(
+      apiKey: "AIzaSyDSY4GiItxWXJrgQcLQ54ujkQb9iJOb4SQ",
+      authDomain: "sph-2025-mt-i-sheersho.firebaseapp.com",
+      projectId: "sph-2025-mt-i-sheersho",
+      storageBucket: "sph-2025-mt-i-sheersho.firebasestorage.app",
+      messagingSenderId: "996001433960",
+      appId: "1:996001433960:web:6b51597bdf0422c2d06edd", 
+    );
     //   auth = FirebaseApp.instance.getAuth(); // Initialize auth for web
     //   debugPrint('Firebase initialized for Web.');
     // } else {
